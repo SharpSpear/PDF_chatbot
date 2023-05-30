@@ -152,7 +152,7 @@ if uploaded_file:
             # Set up the conversational agent
             tools = [
                 Tool(
-                    name="State of Union QA System",
+                    name="Q&A",
                     func=qa.run,
                     description="Useful for when you need to answer questions about the aspects asked. Input may be a partial or fully formed question.",
                 )
